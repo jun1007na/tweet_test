@@ -13,4 +13,4 @@ end
 tweets=client.user_timeline(ARGV[0],:count=>1)
 client.favorite(tweets)
 
-client.update(ARGV[0]+"てｓｔ")
+client.update("@"+ARGV[0]+"ふぁぼてすと")
